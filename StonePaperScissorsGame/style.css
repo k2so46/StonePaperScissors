@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hdng {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #d70808;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-content: space-between;
+  flex-direction: row;
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid black; */
+  /* border-radius: 15px; */
+  background-color: #15bd5f;
+}
+.btn {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  border: 15px groove black;
+  border-radius: 25px;
+  width: 21%;
+  margin: 0px 2%;
+  height: 21%;
+  background-color: rgb(214, 185, 146);
+}
+.img {
+  height: 30vh;
+  overflow: hidden;
+}
+.fltxt {
+  font-size: 135%;
+}
+
+#res {
+  text-align: center;
+  background-color: brown;
+  color: burlywood;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.scorebox {
+  border: 3px solid black;
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  background-color: green;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 40%;
+  height: 40%;
+}
+.sctxt {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: yellow;
+}
+#cScr {
+  background-color: red;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 20%;
+  height: 50%;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: x-large;
+}
+#pScr {
+  background-color: red;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 20%;
+  height: 50%;
+  font-size: x-large;
+  color: aliceblue;
+  font-weight: bolder;
+}
